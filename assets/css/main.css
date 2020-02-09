@@ -1,5 +1,5 @@
 @import url(fontawesome-all.min.css);
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic");
+@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet");
 
 /*
 	Multiverse by HTML5 UP
@@ -83,7 +83,7 @@ canvas, details, embed, figure, figcaption,
 footer, header, hgroup, menu, nav, output, ruby,
 section, summary, time, mark, audio, video {
 	margin: 0;
-	padding: 0;
+	padding: 100;
 	border: 0;
 	font-size: 100%;
 	font: inherit;
@@ -192,9 +192,9 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #a0a0a1;
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
-		font-size: 15pt;
-		font-weight: 300;
+		font-family: "Source Code Pro", monospace, serif;
+		font-size: 13pt;
+		font-weight: 100;
 		letter-spacing: 0.025em;
 		line-height: 1.65;
 	}
@@ -202,16 +202,16 @@ input, select, textarea {
 		@media screen and (max-width: 1680px) {
 
 			body, input, select, textarea {
-				font-size: 11pt;
+				font-size: 12.5pt;
 			}
 
 		}
 
 	a {
-		-moz-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		-webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+		-moz-transition: color 0.1s ease-in-out, border-bottom-color 0.1s ease-in-out;
+		-webkit-transition: color 0.1s ease-in-out, border-bottom-color 0.1s ease-in-out;
+		-ms-transition: color 0.1s ease-in-out, border-bottom-color 0.1s ease-in-out;
+		transition: color 0.1s ease-in-out, border-bottom-color 0.1s ease-in-out;
 		border-bottom: dotted 1px;
 		color: #34a58e;
 		text-decoration: none;
@@ -224,7 +224,7 @@ input, select, textarea {
 
 	strong, b {
 		color: #ffffff;
-		font-weight: 300;
+		font-weight: 200;
 	}
 
 	em, i {
@@ -237,7 +237,7 @@ input, select, textarea {
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #ffffff;
-		font-weight: 300;
+		font-weight: 200;
 		letter-spacing: 0.1em;
 		line-height: 1.5;
 		margin: 0 0 1em 0;
@@ -384,7 +384,7 @@ input, select, textarea {
 		cursor: pointer;
 		display: inline-block;
 		font-size: 0.9em;
-		font-weight: 300;
+		font-weight: 200;
 		height: 3.05556em;
 		letter-spacing: 0.1em;
 		line-height: 3.05556em;
@@ -570,7 +570,7 @@ input, select, textarea {
 		color: #ffffff;
 		display: block;
 		font-size: 0.9em;
-		font-weight: 300;
+		font-weight: 200;
 		margin: 0 0 1em 0;
 	}
 
@@ -677,7 +677,7 @@ input, select, textarea {
 			cursor: pointer;
 			display: inline-block;
 			font-size: 1em;
-			font-weight: 300;
+			font-weight: 200;
 			padding-left: 2.4em;
 			padding-right: 0.75em;
 			position: relative;
@@ -694,7 +694,7 @@ input, select, textarea {
 				line-height: 1;
 				text-transform: none !important;
 				font-family: 'Font Awesome 5 Free';
-				font-weight: 900;
+				font-weight: 250;
 			}
 
 			input[type="checkbox"] + label:before,
@@ -767,7 +767,7 @@ input, select, textarea {
 			line-height: 1;
 			text-transform: none !important;
 			font-family: 'Font Awesome 5 Free';
-			font-weight: 400;
+			font-weight: 250;
 		}
 
 		.icon > .label {
@@ -779,7 +779,7 @@ input, select, textarea {
 		}
 
 		.icon.solid:before {
-			font-weight: 900;
+			font-weight: 300;
 		}
 
 		.icon.brands:before {
@@ -829,7 +829,7 @@ input, select, textarea {
 
 		dl dt {
 			display: block;
-			font-weight: 300;
+			font-weight: 250;
 			margin: 0 0 1em 0;
 		}
 
@@ -1013,7 +1013,7 @@ input, select, textarea {
 		table th {
 			color: #ffffff;
 			font-size: 0.9em;
-			font-weight: 300;
+			font-weight: 200;
 			padding: 0 0.75em 0.75em 0.75em;
 			text-align: left;
 		}
